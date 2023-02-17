@@ -17,7 +17,8 @@ int main(void)
 	{
 		/*convert digit to ASCII representation*/
 		putchar(counter + '0');
-		counter++;
+		putchar(counter + '1');
+		++counter;
 	}
 	putchar('\n');
 	return (0);
