@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+	* main - Entry point
+	* Description: Print Alphabets in both lower and upper cases'
+	* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
 	char ch = 'a';
@@ -17,4 +23,5 @@ int main(void)
 		CH++;
 	}
 	putchar("\n");
+	return (0);
 }
