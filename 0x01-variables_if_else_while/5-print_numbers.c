@@ -14,7 +14,7 @@ int main(void)
 	{
 		print(counter);
 	}
-
+	printf("\n");
 	return (0);
 }
 
