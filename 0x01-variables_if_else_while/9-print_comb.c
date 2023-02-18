@@ -16,11 +16,11 @@ int main(void)
 		putchar(counter + 48);
 		if (counter != 9)
 		{
-			putchar("\,");
-			putchar("\t");
+			putchar(',');
+			putchar(' ');
 		}
 
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
