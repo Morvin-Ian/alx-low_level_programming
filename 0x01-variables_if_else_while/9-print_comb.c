@@ -16,8 +16,8 @@ int main(void)
 		putchar(counter + 48);
 		if (counter != 9)
 		{
-			putchar(",");
-			putchar(" ");
+			putchar("\,");
+			putchar("\t");
 		}
 
 	}
