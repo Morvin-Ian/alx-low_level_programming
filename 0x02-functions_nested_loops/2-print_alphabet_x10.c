@@ -1,4 +1,4 @@
-#include "headers.h"
+#include "main.h"
 /**
  * print_alphabets - Function to be called
  *
