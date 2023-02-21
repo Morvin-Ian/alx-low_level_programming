@@ -15,7 +15,7 @@ int _abs(int)
 	{
 		return (int);
 	}
-	else if (int == 0
+	else if (int == 0)
 	{
 		return (0);
 	}
