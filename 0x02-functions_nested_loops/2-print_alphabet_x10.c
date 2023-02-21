@@ -7,34 +7,18 @@
  * Return: Always 0 (Success)
 */
 
-void print_alphabets(void)
+void print_alphabet_x10(void)
 {
 	char ch = 'a';
-
-	while (ch <= 'z')
-	{
-		_putchar(ch);
-		ch++;
-	}
-	_putchar('\n');
-}
-
-/**
- * main - Entry point
- *
- * Description: Calls the alphabets function 10 times
- *
- * Return: Always 0 (Success)
-*/
-
-int main(void)
-{
 	int counter = 1;
 
 	while (counter <= 10)
 	{
-		print_alphabets();
-		counter++;
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		_putchar('\n');
 	}
-	return (0);
 }

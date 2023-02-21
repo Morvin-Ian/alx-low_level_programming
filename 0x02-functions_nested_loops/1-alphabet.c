@@ -19,17 +19,3 @@ void print_alphabets(void)
 	_putchar('\n');
 
 }
-
-/**
- * main - Entry point
- *
- * Description: Calls the alphabets function
- *
- * Return: Always 0 (Success)
-*/
-
-int main(void)
-{
-	print_alphabets();
-	return (0);
-}
