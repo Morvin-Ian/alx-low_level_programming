@@ -4,23 +4,23 @@
  * _abs - function to check if
  *       a value is not abs and turns it to abs
  *
- * @int Data type as : Argument of the function
+ * @n Data type as : Argument of the function
  *
  * Return: AN basolute value or arg int
 */
 
-int _abs(int)
+int _abs(int n)
 {
-	if (int > 0)
+	if (n > 0)
 	{
-		return (int);
+		return (n);
 	}
-	else if (int == 0)
+	else if (n == 0)
 	{
 		return (0);
 	}
 	else
 	{
-		return (int + (int * 2));
+		return (n + (n * 2));
 	}
 }
