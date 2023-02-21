@@ -16,6 +16,5 @@ int main(void)
 		_putchar(printed_string[counter]);
 		counter++;
 	}
-	_putchar('\n');
 	return (0);
 }
