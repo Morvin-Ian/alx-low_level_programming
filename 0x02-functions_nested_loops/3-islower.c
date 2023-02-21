@@ -8,7 +8,7 @@
 int _islower(int c)
 {
 
-	while (ch >= 97 && ch <=122)
+	while (c >= 97 && c <=122)
 	{
 		if (ch == c)
 		{
