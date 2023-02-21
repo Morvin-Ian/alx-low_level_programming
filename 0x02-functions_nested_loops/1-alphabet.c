@@ -1,11 +1,12 @@
 #include "main.h"
+
 /**
- * print_alphabets - Function to be called
+ * main - Entry point
  *
- * Description: prints alphabets in lowercase
+ * Description: 'the program's description'
  *
  * Return: Always 0 (Success)
-*/
+ */
 
 void print_alphabet(void)
 {
