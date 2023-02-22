@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * jack_bauer - a function that prints every minute of
@@ -24,7 +25,9 @@ void jack_bauer(void)
 			_putchar(':');
 			_putchar((minutes / 10) + '0');
 			_putchar((minutes % 10) + '0');
+			sleep(60);
 			_putchar('\n');
+			minutes++;
 		}
 
 		hours++;
