@@ -9,8 +9,9 @@
  * Return: 1 or 0
  */
 
-int _isupper(int c)
+int _isupper(char c)
 {
+	
 	if (c >= 65 && c <= 90)
 		return (1);
 	else
