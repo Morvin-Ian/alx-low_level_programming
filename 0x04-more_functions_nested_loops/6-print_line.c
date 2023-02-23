@@ -7,18 +7,9 @@
 
 void print_line(int n)
 {
-	int counter;
-
-	if (n > 0)
+	while (n-- > 0)
 	{
-		for (counter = 0; counter <= n; counter++)
-		{
-			_putchar(95);
-		}
-		_putchar('\n');
+		_putchar('_');
 	}
-	else
-	{
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
