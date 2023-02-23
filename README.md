@@ -1,1 +1,1 @@
-C programming Language
+Debuuging Techniques
