@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_isdigit - function that verifies if a  character is a digit or not
+*mul - function that multiplies integers
 *@a: arg 1
 *@b: arg 2
 *Return: a multiple of two args
