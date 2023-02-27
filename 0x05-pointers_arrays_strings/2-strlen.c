@@ -13,7 +13,10 @@
 
 int _strlen(char *s)
 {
-	int len = strlen(*s);
+	int string_count;
 
-	return (len);
+	for string_count = 0; *s != '\0'; ++s)
+		++string_count;
+
+	return (string_count);
 }
