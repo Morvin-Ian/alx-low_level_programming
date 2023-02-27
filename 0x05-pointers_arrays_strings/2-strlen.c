@@ -15,7 +15,7 @@ int _strlen(char *s)
 {
 	int string_count;
 
-	for string_count = 0; *s != '\0'; ++s)
+	for (string_count = 0; *s != '\0'; ++s)
 		++string_count;
 
 	return (string_count);
