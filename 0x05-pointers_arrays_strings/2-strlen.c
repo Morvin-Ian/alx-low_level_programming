@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * _strlen() - takes a pointer to an int parameter
+ * _strlen - takes a pointer to an int parameter
  *               and updates the value
  *
  * @s: char parameter
