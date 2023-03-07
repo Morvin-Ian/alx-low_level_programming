@@ -6,7 +6,7 @@
  * @n: function copies
  * @src: from  memory area
  * @dest: to memory area
- * Return: a pointer 
+ * Return: a pointer
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
