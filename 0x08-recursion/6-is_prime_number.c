@@ -15,7 +15,7 @@ int real_prime(unsigned int n, unsigned int c)
 		else
 			return (0);
 	}
-	return (0 + is_prime(n, c + 1));
+	return (0 + real_prime(n, c + 1));
 }
 /**
  * is_prime_number - detects if an input number is a prime number.
