@@ -11,5 +11,6 @@
 
 int _atoi(char *s)
 {
-
+	*s = 'H';
+	return (0);
 }
